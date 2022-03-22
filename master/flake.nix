@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-spurdify-master.flake = false;
+  inputs.src-spurdify-master.ref   = "refs/heads/master";
   inputs.src-spurdify-master.owner = "paradox460";
-  inputs.src-spurdify-master.ref   = "master";
   inputs.src-spurdify-master.repo  = "spurdify";
   inputs.src-spurdify-master.type  = "github";
   
